@@ -496,7 +496,9 @@ class MarkdownExtra extends \Michelf\Markdown {
 				$parts[0] = $void . str_replace("\n", $newline, $parts[0]) . $void;
 			}
 
-			$parsed .= $parts[0]; // Text before current tag.
+			if (isset($parts[0])) {
+				$parsed .= $parts[0]; // Text before current tag.
+			}
 
 			// If end of $text has been reached. Stop loop.
 			if (count($parts) < 3) {

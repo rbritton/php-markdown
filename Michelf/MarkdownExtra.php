@@ -501,7 +501,7 @@ class MarkdownExtra extends \Michelf\Markdown {
 			}
 
 			// If end of $text has been reached. Stop loop.
-			if (count($parts) < 3) {
+			if (!$parts || count($parts) < 3) {
 				$text = "";
 				break;
 			}

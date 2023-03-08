@@ -1,7 +1,7 @@
 {
-	"name": "rbritton/php-markdown",
+	"name": "michelf/php-markdown",
 	"type": "library",
-	"description": "PHP Markdown, forked from michelf/php-markdown",
+	"description": "PHP Markdown with bug fixes, forked from michelf/php-markdown",
 	"homepage": "https://michelf.ca/projects/php-markdown/",
 	"keywords": ["markdown"],
 	"license": "BSD-3-Clause",
